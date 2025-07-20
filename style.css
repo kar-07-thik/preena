@@ -1,0 +1,84 @@
+
+body{
+    background: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} 
+
+.Ig{
+    text-align: center;
+    font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.title{
+    color: black;
+    display: block;
+   margin-left: 10px;
+    
+}
+
+p{
+    color: white;
+   
+    display: block;
+    
+}
+
+
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+    flex-direction: row;
+    
+    
+}
+.container div{
+
+   padding: 10px;
+   
+    
+    flex-basis: 20%;
+
+}
+
+.container:hover{
+    cursor: pointer;
+}
+    
+  
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .Ig{
+        font-size: 15px;
+    
+    }
+    .container{
+        
+    }
+    
+   .title{
+    padding: 0px;
+    margin-left: 0px;
+   } 
+    img{
+   
+    flex-direction: column;
+}
+
+    .title{
+        font-size: 20px;
+    }
+    
+}
